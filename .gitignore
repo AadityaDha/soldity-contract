@@ -1,0 +1,61 @@
+#gitignore for solidity
+
+# Compiled source #
+###################
+*.bin
+*.abi
+
+# Other files #
+###############
+*.log
+*.swp
+*.swo
+*.swx
+*.swp
+*.swo
+*.swx
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files #
+#############
+.idea
+.vscode
+*.iml
+*.ipr
+*.iws
+*.sublime-workspace
+*.sublime-project
+
+# Build files #
+###############
+build/
+dist/
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+yarn.lock
+package-lock.json
+
+# Test files #
+##############
+test/
+testrpc.log
+
+# Coverage files #
+##################
+coverage/
+coverage.json
+
+# Documentation files #
+#######################
+docs/
